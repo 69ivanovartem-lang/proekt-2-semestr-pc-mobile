@@ -1,137 +1,121 @@
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
+from fastapi.responses import JSONResponse
 from pydantic import BaseModel
 from typing import List, Optional
 from datetime import datetime
 import socket
 import uvicorn
 
-app = FastAPI(title="PVZ Orders API")
+app = FastAPI(title="PVZ Orders API v2")
+
+@app.middleware("http")
+async def add_utf8_header(request, call_next):
+    response = await call_next(request)
+    response.headers["Content-Type"] = "application/json; charset=utf-8"
+    return response
 
 app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    CORSMiddleware, allow_origins=["*"], allow_credentials=True, allow_methods=["*"], allow_headers=["*"]
 )
 
 VALID_STATUSES = ["В пути", "Собирается", "Прибыл", "Выдан"]
 
-class Order(BaseModel):
-    pzv_number: str
-    order_number: str
-    client_name: str
-    phone_number: str
-    status: str = "В пути"
-    created_at: Optional[str] = None
-    delivered_at: Optional[str] = None
+# --- МОДЕЛИ ---
+class OrderItem(BaseModel):
+    name: str
+    quantity: int = 1
 
 class OrderCreate(BaseModel):
-    pzv_number: str
     order_number: str
     client_name: str
     phone_number: str
+    items: List[OrderItem]
 
-class StatusUpdate(BaseModel):
-    order_number: str
-    status: str
-
-class DeliveryConfirm(BaseModel):
-    order_number: str
-    confirmed: bool
-
+# --- БД (В памяти) ---
 orders_db = []
 
 def get_local_ip():
     s = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
     try:
         s.connect(('8.8.8.8', 80))
-        ip = s.getsockname()[0]
-    except:
-        ip = '127.0.0.1'
-    finally:
-        s.close()
-    return ip
-
-@app.get("/")
-async def root():
-    return {"message": "PVZ Orders API", "time": datetime.now().isoformat()}
+        return s.getsockname()[0]
+    except: return '127.0.0.1'
+    finally: s.close()
 
 @app.get("/server-info")
 async def server_info():
-    local_ip = get_local_ip()
-    return {
-        "server_url": f"http://{local_ip}:8000",
-        "qr_data": f"PVZ|{local_ip}|8000"
-    }
+    return {"server_url": f"http://{get_local_ip()}:8000"}
 
 @app.post("/add")
 async def add_order(order: OrderCreate):
-    for o in orders_db:
-        if o['order_number'] == order.order_number:
-            raise HTTPException(status_code=400, detail="Заказ уже существует")
+    if any(o['order_number'] == order.order_number for o in orders_db):
+        raise HTTPException(status_code=400, detail="Заказ уже существует")
     
-    new_order = Order(
-        pzv_number=order.pzv_number,
-        order_number=order.order_number,
-        client_name=order.client_name,
-        phone_number=order.phone_number,
-        status="В пути",
-        created_at=datetime.now().isoformat()
-    )
-    orders_db.append(new_order.dict())
-    print(f"✅ Новый заказ: {order.order_number} - {order.client_name}")
+    new_order = {
+        "order_number": order.order_number,
+        "client_name": order.client_name,
+        "phone_number": order.phone_number,
+        "status": "В пути",
+        "items": [i.dict() for i in order.items],
+        "created_at": datetime.now().isoformat()
+    }
+    orders_db.append(new_order)
+    print(f"✅ Заказ {order.order_number} ({len(order.items)} тов.)")
     return {"status": "success", "message": "Order added"}
 
 @app.get("/orders")
 async def get_orders():
-    return orders_db
+    return JSONResponse(content=orders_db)
 
+@app.get("/client-orders/{phone_number}")
+async def get_client_orders(phone_number: str):
+    client_orders = [o for o in orders_db if o['phone_number'] == phone_number]
+    return JSONResponse(content=client_orders)
+
+# ✅ ИСПРАВЛЕНО: принимаем как dict (словарь), чтобы избежать ошибок валидации
+# ✅ ИСПРАВЛЕНО: принимаем как dict (словарь), чтобы избежать ошибок валидации
 @app.post("/update-status")
-async def update_status(data: StatusUpdate):
-    """Изменение статуса заказа"""
-    if data.status not in VALID_STATUSES:
-        raise HTTPException(status_code=400, detail=f"Неверный статус. Допустимы: {VALID_STATUSES}")
+async def update_status(update_data: dict):
+    print(f"📥 Получено: {update_data}")  # ЛОГ чтобы видеть что пришло
+    order_number = update_data.get("order_number")
+    new_status = update_data.get("status")
+    
+    print(f"🔍 Ищу заказ: {order_number}, новый статус: {new_status}")
     
     for order in orders_db:
-        if order['order_number'] == data.order_number:
-            order['status'] = data.status
-            print(f"📝 Заказ {data.order_number}: статус изменён на '{data.status}'")
-            return {"status": "success", "message": f"Статус изменён на {data.status}"}
+        if order['order_number'] == order_number:
+            if new_status not in VALID_STATUSES:
+                print(f"❌ Неверный статус: {new_status}")
+                raise HTTPException(status_code=400, detail="Неверный статус")
+            order['status'] = new_status
+            print(f"✅ Статус изменен для {order_number}")
+            return {"status": "success", "message": f"Статус: {new_status}"}
     
+    print(f"❌ Заказ не найден: {order_number}")
     raise HTTPException(status_code=404, detail="Заказ не найден")
 
 @app.post("/confirm-delivery")
-async def confirm_delivery( DeliveryConfirm):
-    """Подтверждение выдачи заказа"""
-    for order in orders_db:
-        if order['order_number'] == data.order_number:
-            if order['status'] != "Прибыл":
-                raise HTTPException(
-                    status_code=400, 
-                    detail=f"Нельзя выдать заказ! Текущий статус: {order['status']}. Заказ должен иметь статус 'Прибыл'"
-                )
-            
-            if data.confirmed:
-                order['status'] = "Выдан"
-                order['delivered_at'] = datetime.now().isoformat()
-                print(f"✅ Заказ {data.order_number} ВЫДАН!")
-                return {"status": "success", "message": "Заказ выдан"}
-            else:
-                return {"status": "cancelled", "message": "Выдача отменена"}
+async def confirm_delivery(data: dict):
+    print(f"📥 Получено на выдачу: {data}")
+    order_number = data.get("order_number")
     
+    for order in orders_db:
+        if order['order_number'] == order_number:
+            if order['status'] != "Прибыл":
+                raise HTTPException(status_code=400, detail="Заказ не прибыл")
+            order['status'] = "Выдан"
+            print(f"✅ Заказ {order_number} выдан!")
+            return {"status": "success", "message": "Выдано"}
+            
     raise HTTPException(status_code=404, detail="Заказ не найден")
 
 @app.delete("/orders/clear")
 async def clear_orders():
     global orders_db
     orders_db = []
-    return {"status": "success", "message": "All orders cleared"}
+    return {"status": "success", "message": "Cleared"}
 
 if __name__ == "__main__":
-    local_ip = get_local_ip()
-    print(f"\n🚀 Сервер запущен!")
-    print(f"📱 IP: {local_ip}")
-    print(f"🔗 URL: http://{local_ip}:8000")
+    print(f"🚀 Сервер: http://{get_local_ip()}:8000")
     uvicorn.run(app, host="0.0.0.0", port=8000)

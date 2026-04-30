@@ -7,16 +7,16 @@
       "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\pvzovv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -54,7 +54,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -62,7 +62,8 @@
               "RelativeToolTip": "App.xaml.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T09:48:00.977Z"
+              "WhenOpened": "2026-04-08T09:48:00.977Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -84,27 +85,27 @@
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
               "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBIAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T09:47:05.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\Order.cs",
               "RelativeDocumentMoniker": "Order.cs",
               "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\Order.cs",
               "RelativeToolTip": "Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T09:45:54.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",

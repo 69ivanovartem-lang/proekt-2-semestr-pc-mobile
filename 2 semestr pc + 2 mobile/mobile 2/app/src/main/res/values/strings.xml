@@ -1,4 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">PZOVV</string>
-    <string name="scan_button_text">Сканировать заказ</string>
+    <string name="app_name">ПВЗ Работник</string>
 </resources>
