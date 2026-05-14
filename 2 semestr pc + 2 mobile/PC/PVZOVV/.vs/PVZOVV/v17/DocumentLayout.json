@@ -1,34 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\ZOVV\\PC\\PVZOVV\\",
+  "WorkspaceRootPath": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\proekt 2 semestr \u002B pc \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\pc\\pvzovv\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\proekt 2 semestr \u002B pc \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\pc\\pvzovv\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\pvzovv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\proekt 2 semestr \u002B pc \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\pc\\pvzovv\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\proekt 2 semestr \u002B pc \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\pc\\pvzovv\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\proekt 2 semestr \u002B pc \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\pc\\pvzovv\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\proekt 2 semestr \u002B pc \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\pc\\pvzovv\\pvzovv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:pvzovv.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\proekt 2 semestr \u002B pc \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\pc\\pvzovv\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|d:\\zovv\\pc\\pvzovv\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{C5A2CFBB-7E83-402A-82CE-CCF7DFAFB0C9}|PVZOVV.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,36 +42,37 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\AssemblyInfo.cs",
+              "DocumentMoniker": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\AssemblyInfo.cs",
               "RelativeDocumentMoniker": "AssemblyInfo.cs",
-              "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\AssemblyInfo.cs",
+              "ToolTip": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\AssemblyInfo.cs",
               "RelativeToolTip": "AssemblyInfo.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T09:48:07.258Z"
+              "WhenOpened": "2026-04-08T09:48:07.258Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "App.xaml.cs",
-              "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\App.xaml.cs",
+              "DocumentMoniker": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\App.xaml.cs",
+              "ToolTip": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\App.xaml.cs",
               "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T09:48:00.977Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "App.xaml",
-              "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\App.xaml",
+              "DocumentMoniker": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\App.xaml",
               "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\App.xaml",
+              "ToolTip": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\App.xaml",
               "RelativeToolTip": "App.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-08T09:47:56.292Z",
@@ -81,35 +82,35 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
-              "ViewState": "AQIAAA8AAAAAAAAAAAAqwBIAAAAZAAAA",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAQwKEAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T09:47:05.618Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Order.cs",
-              "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\Order.cs",
+              "DocumentMoniker": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\Order.cs",
               "RelativeDocumentMoniker": "Order.cs",
-              "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\Order.cs",
+              "ToolTip": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\Order.cs",
               "RelativeToolTip": "Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-04-08T09:45:54.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\MainWindow.xaml",
+              "DocumentMoniker": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\MainWindow.xaml",
               "RelativeDocumentMoniker": "MainWindow.xaml",
-              "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\MainWindow.xaml",
+              "ToolTip": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\MainWindow.xaml",
               "RelativeToolTip": "MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2026-04-08T09:40:23.628Z",
@@ -117,15 +118,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "PVZOVV.csproj",
-              "DocumentMoniker": "D:\\ZOVV\\PC\\PVZOVV\\PVZOVV.csproj",
+              "DocumentMoniker": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\PVZOVV.csproj",
               "RelativeDocumentMoniker": "PVZOVV.csproj",
-              "ToolTip": "D:\\ZOVV\\PC\\PVZOVV\\PVZOVV.csproj",
+              "ToolTip": "D:\\proekt 2 semestr \u002B PC \u002B 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc \u002B 2 mobile\\PC\\PVZOVV\\PVZOVV.csproj",
               "RelativeToolTip": "PVZOVV.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAKAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-04-08T09:32:12.685Z"
+              "WhenOpened": "2026-04-08T09:32:12.685Z",
+              "EditorCaption": ""
             }
           ]
         }

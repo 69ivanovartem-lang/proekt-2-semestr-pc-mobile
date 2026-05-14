@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PVZOVV")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3c1523a897203cc701d2d31d3e74500339e2ce1a")]
 [assembly: System.Reflection.AssemblyProductAttribute("PVZOVV")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PVZOVV")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

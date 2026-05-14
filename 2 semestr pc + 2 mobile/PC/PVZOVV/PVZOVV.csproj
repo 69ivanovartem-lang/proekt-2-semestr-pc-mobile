@@ -14,5 +14,7 @@
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
 		<PackageReference Include="QRCoder" Version="1.8.0" />
 	</ItemGroup>
-
+	<ItemGroup>
+		<PackageReference Include="MaterialDesignThemes" Version="4.7.1" />
+	</ItemGroup>
 </Project>

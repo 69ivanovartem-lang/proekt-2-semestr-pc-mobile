@@ -1,14 +1,9 @@
-﻿using System.Configuration;
-using System.Data;
-using System.Windows;
+﻿using System.Windows;
 
-namespace PVZOVV
+namespace PVZOVV // Убедитесь, что имя совпадает с вашим проектом
 {
-    /// <summary>
-    /// Interaction logic for App.xaml
-    /// </summary>
     public partial class App : Application
     {
+        // Здесь ничего писать не нужно, это точка входа
     }
-
 }

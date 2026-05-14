@@ -1,9 +1,8 @@
 ﻿<Application x:Class="PVZOVV.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:PVZOVV"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-         
+        <!-- Сюда можно добавить стили, но пока оставим пустым -->
     </Application.Resources>
 </Application>

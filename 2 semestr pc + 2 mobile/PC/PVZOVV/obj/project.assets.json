@@ -224,11 +224,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\ZOVV\\PC\\PVZOVV\\PVZOVV.csproj",
+      "projectUniqueName": "D:\\proekt 2 semestr + PC + 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc + 2 mobile\\PC\\PVZOVV\\PVZOVV.csproj",
       "projectName": "PVZOVV",
-      "projectPath": "D:\\ZOVV\\PC\\PVZOVV\\PVZOVV.csproj",
+      "projectPath": "D:\\proekt 2 semestr + PC + 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc + 2 mobile\\PC\\PVZOVV\\PVZOVV.csproj",
       "packagesPath": "C:\\Users\\Academy\\.nuget\\packages\\",
-      "outputPath": "D:\\ZOVV\\PC\\PVZOVV\\obj\\",
+      "outputPath": "D:\\proekt 2 semestr + PC + 2mobile\\proekt 2 semestr pc-mobile\\2 semestr pc + 2 mobile\\PC\\PVZOVV\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Academy\\AppData\\Roaming\\NuGet\\NuGet.Config",
